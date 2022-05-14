@@ -8,7 +8,7 @@ router.get('/', function(req, res) {
 
 /* GET test listing. */
 router.get('/test', function(req, res) {
-  res.send('respond with a test');
+  res.send({message:"hello", error:""});
 });
 
 module.exports = router;
